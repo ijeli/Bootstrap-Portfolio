@@ -47,6 +47,11 @@ body {
     background-image: url("../assets/Images/funky-lines.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    height: 100%;
+}
+
+footer {
+    display: block;
 }
 
 #maincontent {
@@ -62,10 +67,10 @@ body {
 
 .navbar-brand {
     background-color: #4aaaa5;
-    color: white;
     font-weight: bolder;
     font-size: 32px;
-    width: 400px;
+    width: 300px;
+    margin-left: 40px;
     text-align: center;
 }
 
@@ -85,4 +90,22 @@ footer {
     height: 60px;
     line-height: 60px;
     background-color: #666666;
+}
+
+#logofont {
+    color: white;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
